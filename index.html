@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Servidor de Imágenes</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<style>
+    .img-fixed {
+        height: 400px; /* Ajusta la altura según sea necesario */
+        object-fit: fill; /* Recorta la imagen para llenar el espacio sin distorsionarla */
+    }
+</style>
+
+<body>
+
+
+
+<header>
+    <h1 class="bg-dark text-white p-3">Servidor de Imágenes</h1>
+</header>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <!-- Primera imagen -->
+        <div class="d-flex justify-content-center">
+            <div class="card " style="width: 18rem;">
+                <img src="/images/espinosaurio.jpeg" class="card-img-top img-fixed" alt="Espinosaurio">
+                <div class="card-body">
+                    <p class="card-text text-center">espinosaurio.jpeg</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Segunda imagen -->
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="/images/velociraptor.jpg" class="card-img-top img-fixed" alt="Velociraptor">
+                <div class="card-body">
+                    <p class="card-text text-center">velociraptor.jpg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-center">
+        <!-- Tercera imagen -->
+        <div class="d-flex justify-content-center border border-dark">
+            <div class="card " style="width: 18rem;">
+                <img src="/images/tiranosaurio.jpg" class="card-img-top img-fixed" alt="Tiranosaurio">
+                <div class="card-body">
+                    <p class="card-text text-center">tiranosaurio.jpg</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cuarta imagen -->
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="/images/braquiosaurio.jpeg" class="card-img-top img-fixed" alt="Braquiosaurio">
+                <div class="card-body">
+                    <p class="card-text text-center">braquiosaurio.jpeg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<footer class="bg-dark text-white p-3 h2 d-flex justify-content-between align-items-center">
+    <!-- Alineado a la izquierda -->
+    <div class="ms-3">
+        Computación en la nube
+    </div>
+
+    <!-- Centrado -->
+    <div class="mx-auto p-3">
+        Juan Tunubala - Miguel Vargas - Juan Rodriguez
+    </div>
+</footer>
+
+</html>
